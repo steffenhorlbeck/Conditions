@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="add-workflow-extensions" />
+        <module name="Conditions" />
+        <module name="workflow-conditions" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="add-workflow-extensions" target="1.6" />
+      <module name="Conditions" target="1.5" />
+      <module name="workflow-conditions" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
